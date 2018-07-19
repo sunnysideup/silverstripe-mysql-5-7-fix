@@ -1,0 +1,27 @@
+{
+    "name": "sunnysideup/mysql-5-7-fix",
+    "type": "silverstripe-vendormodule",
+    "description": "ANSI sans ONLY_FULL_GROUP_BY. This allows you to run Silverstripe projects on mysql5.7+ without constantly running into errors. ",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "mysql",
+        "ansi",
+        "ONLY_FULL_GROUP_BY",
+        "order by",
+        "select",
+        "sql",
+        "database"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~4"
+    }
+}
