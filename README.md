@@ -1,11 +1,11 @@
-# Silverstripe typography module
-[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-typography.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-typography)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-typography/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-typography/?branch=master)
-[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-typography/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-typography?branch=master)
+# Silverstripe mysql-5-7-fix module
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-mysql-5-7-fix.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-mysql-5-7-fix)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-mysql-5-7-fix/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-mysql-5-7-fix/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-mysql-5-7-fix/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-mysql-5-7-fix?branch=master)
 
-[![Latest Stable Version](https://poser.pugx.org/sunnysideup/typography/version)](https://packagist.org/packages/sunnysideup/typography)
-[![License](https://poser.pugx.org/sunnysideup/typography/license)](https://packagist.org/packages/sunnysideup/typography)
-[![Monthly Downloads](https://poser.pugx.org/sunnysideup/typography/d/monthly)](https://packagist.org/packages/sunnysideup/typography)
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/mysql-5-7-fix/version)](https://packagist.org/packages/sunnysideup/mysql-5-7-fix)
+[![License](https://poser.pugx.org/sunnysideup/mysql-5-7-fix/license)](https://packagist.org/packages/sunnysideup/mysql-5-7-fix)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/mysql-5-7-fix/d/monthly)](https://packagist.org/packages/sunnysideup/mysql-5-7-fix)
 
 
 ## Documentation
@@ -14,7 +14,7 @@
 
  * [Developer Docs](docs/en/INDEX.md)
  * [User Guide](docs/en/userguide.md)
- * [API Docs](http://docs.ssmods.com/sunnysideup/typography/classes.xhtml)
+ * [API Docs](http://docs.ssmods.com/sunnysideup/mysql-5-7-fix/classes.xhtml)
 
 
 ## Requirements
@@ -35,19 +35,19 @@ See [composer.json](composer.json) for details
 
 
 ```
-composer require sunnysideup/typography
+composer require sunnysideup/mysql-5-7-fix
 ```
 
 ### Configuration
 
 
 
-In the `_config` folder you will find the `typography.yml.example`
+In the `_config` folder you will find the `mysql-5-7-fix.yml.example`
 file that shows options for the configuration of this module.
 
 We recommend that you:
 
-  1. copy these `typography.yml.example` files into your
+  1. copy these `mysql-5-7-fix.yml.example` files into your
 `app/_config` folder (where available - otherwise search for `private static $` in the module to see what can be configured)
   2. remove the .example extension,
   3. delete the lines you do not care about, and

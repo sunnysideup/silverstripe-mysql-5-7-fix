@@ -1,4 +1,4 @@
-# Contributing to typography
+# Contributing to mysql-5-7-fix
 
 Please read the
 [generic write up for contributing](https://docs.silverstripe.org/en/4.0/contributing/)
